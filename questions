@@ -2,3 +2,12 @@ What is the difference between switch and checkout?
 What does git merge do?
 What happens to the commit history after rebase and why?
 How to understand which branch is remote and which is local in the terminal?
+
+
+команда switch имеет лишь функцию переклюения, а checkout может создавать новые ветки и функционал его больше
+
+команда merge объединяет две ветки, с дальнейшим результатом в ветке, в которой мы находимся
+
+rebase полностью переписывает данные о ветке, в которой мы находились в ветку, в которую мы указали
+
+те ветки, перед которыми стоят названия remote'а будут считаться не локальными
